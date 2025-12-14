@@ -1,0 +1,349 @@
+{
+    "number": 2,
+    "name": "البقرة",
+    "latin_name": "Al-Baqarah",
+    "english_name": "The Cow",
+    "ayah_count": 286,
+    "ayahs": [
+        {
+            "number": 1,
+            "text_arabic": "الٓمٓ",
+            "text_latin": "Alif-Lam-Mim",
+            "translation_id": "Alif Lam Mim.",
+            "tafsir": "Allah memulai surah ini dengan huruf-huruf abjad (Alif, Lam, Mim) untuk menunjukkan kemukjizatan Al-Qur'an. Al-Qur'an tersusun dari huruf-huruf yang biasa digunakan oleh bangsa Arab, namun mereka tidak mampu membuat satu surah pun yang semisal dengannya. Hanya Allah yang mengetahui makna pasti dari huruf-huruf ini.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Mad Lazim Harfi Mutsaqqal",
+                    "segment": "الٓ"
+                },
+                {
+                    "rule": "Mad Lazim Harfi Mukhaffaf",
+                    "segment": "مٓ"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "text_arabic": "ذَٰلِكَ ٱلْكِتَـٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
+            "text_latin": "Dzalikal-kitabu la raiba fih, hudal-lil-muttaqin",
+            "translation_id": "Kitab (Al-Qur'an) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,",
+            "tafsir": "Inilah Al-Qur'an, kitab yang agung dan sempurna. Tidak ada keraguan sedikit pun bahwa ia berasal dari Allah. Isinya adalah kebenaran mutlak yang menjadi pedoman hidup bagi orang-orang yang bertakwa.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "ٱلْكِتَـٰبُ"
+                },
+                {
+                    "rule": "Mad Thabi'i",
+                    "segment": "لَا"
+                },
+                {
+                    "rule": "Mad Lin",
+                    "segment": "رَيْبَ"
+                },
+                {
+                    "rule": "Mu'anaqah (Berhenti di salah satu)",
+                    "segment": "ۛ ... ۛ"
+                },
+                {
+                    "rule": "Idgham Bilaghunnah",
+                    "segment": "هُدًى لِّلْمُتَّقِينَ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "لِّلْمُتَّقِينَ"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "text_arabic": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+            "text_latin": "Allazina yu'minuna bil-ghaibi wa yuqimunas-salata wa mimma razaqnahum yunfiqun",
+            "translation_id": "(yaitu) mereka yang beriman kepada yang gaib, melaksanakan salat, dan menginfakkan sebagian rezeki yang Kami berikan kepada mereka,",
+            "tafsir": "Orang bertakwa memiliki ciri utama: 1) Beriman kepada hal-hal gaib yang tidak tampak mata (seperti Allah, Malaikat, Surga, Neraka), 2) Menjaga salat dengan menyempurnakan rukun dan syaratnya, 3) Menyisihkan sebagian harta untuk zakat dan sedekah.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلَّذِينَ"
+                },
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "بِٱلْغَيْبِ"
+                },
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلصَّلَوٰةَ"
+                },
+                {
+                    "rule": "Qalqalah Sughra",
+                    "segment": "رَزَقْنَـٰهُمْ"
+                },
+                {
+                    "rule": "Ikhfa Haqiqi",
+                    "segment": "يُنفِقُونَ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "يُنفِقُونَ"
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "text_arabic": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+            "text_latin": "Wallazina yu'minuna bima unzila ilaika wa ma unzila min qablika wa bil-akhirati hum yuqinun",
+            "translation_id": "dan mereka yang beriman kepada (Al-Qur'an) yang diturunkan kepadamu (Muhammad) dan (kitab-kitab) yang telah diturunkan sebelum engkau, dan mereka yakin akan adanya akhirat.",
+            "tafsir": "Selain itu, mereka juga beriman kepada kitab suci Al-Qur'an yang diturunkan kepada Nabi Muhammad saw. serta kitab-kitab sebelumnya (Taurat, Injil, Zabur) tanpa membeda-bedakan. Mereka juga memiliki keyakinan yang kuat tentang adanya kehidupan akhirat.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Mad Jaiz Munfasil",
+                    "segment": "بِمَآ أُنزِلَ"
+                },
+                {
+                    "rule": "Ikhfa Haqiqi",
+                    "segment": "أُنزِلَ"
+                },
+                {
+                    "rule": "Mad Jaiz Munfasil",
+                    "segment": "وَمَآ أُنزِلَ"
+                },
+                {
+                    "rule": "Ikhfa Haqiqi",
+                    "segment": "مِن قَبْلِكَ"
+                },
+                {
+                    "rule": "Qalqalah Sughra",
+                    "segment": "قَبْلِكَ"
+                },
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "وَبِٱلْـَٔاخِرَةِ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "يُوقِنُونَ"
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "text_arabic": "أُو۟لَـٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+            "text_latin": "Ula'ika 'ala hudan mir-rabbihim wa ula'ika humul-muflihun",
+            "translation_id": "Merekalah yang mendapat petunjuk dari Tuhannya, dan mereka itulah orang-orang yang beruntung.",
+            "tafsir": "Mereka yang memiliki sifat-sifat di atas itulah yang berada di atas cahaya petunjuk dari Tuhan mereka. Mereka adalah orang-orang yang beruntung karena berhasil meraih surga dan selamat dari neraka.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Mad Wajib Muttasil",
+                    "segment": "أُو۟لَـٰٓئِكَ"
+                },
+                {
+                    "rule": "Idgham Bighunnah",
+                    "segment": "هُدًى مِّن"
+                },
+                {
+                    "rule": "Idgham Bilaghunnah",
+                    "segment": "مِّن رَّبِّهِمْ"
+                },
+                {
+                    "rule": "Waqaf Saly (Boleh berhenti, lanjut lebih utama)",
+                    "segment": "رَّبِّهِمْ ۖ"
+                },
+                {
+                    "rule": "Mad Wajib Muttasil",
+                    "segment": "وَأُو۟لَـٰٓئِكَ"
+                },
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "ٱلْمُفْلِحُونَ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "ٱلْمُفْلِحُونَ"
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "text_arabic": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+            "text_latin": "Innal-lazina kafaru sawa'un 'alaihim a-anzartahum am lam tunzirhum la yu'minun",
+            "translation_id": "Sesungguhnya orang-orang kafir, sama saja bagi mereka, engkau beri peringatan atau tidak engkau beri peringatan, mereka tidak akan beriman.",
+            "tafsir": "Adapun orang-orang yang ingkar (kafir) dan bersikeras menutupi kebenaran, peringatanmu tidak akan berguna bagi mereka. Hati mereka telah keras membatu sehingga sama saja bagi mereka, apakah engkau menasihati mereka atau membiarkan mereka, mereka tetap tidak akan beriman.",
+            "asbabun_nuzul": "Menurut riwayat dari Ibnu Abbas dan Al-Kalbi, ayat ini dan ayat berikutnya turun berkenaan dengan para pemimpin kaum musyrikin Quraisy, seperti Abu Jahal, Abu Lahab, Al-Walid bin Mughirah, dan kawan-kawannya. Allah menurunkan ayat ini untuk memberitahukan kepada Nabi Muhammad saw. bahwa mereka ini (para pemimpin yang disebutkan) telah ditetapkan dalam ilmu Allah tidak akan pernah beriman selamanya, dan akan mati dalam keadaan kafir. Peringatan Nabi tidak akan melunakkan hati mereka yang sudah terkunci mati oleh kesombongan.",
+            "tajwid_info": [
+                {
+                    "rule": "Ghunnah",
+                    "segment": "إِنَّ"
+                },
+                {
+                    "rule": "Mad Wajib Muttasil",
+                    "segment": "سَوَآءٌ"
+                },
+                {
+                    "rule": "Idzhar Halqi",
+                    "segment": "سَوَآءٌ عَلَيْهِمْ"
+                },
+                {
+                    "rule": "Ikhfa Haqiqi",
+                    "segment": "ءَأَنذَرْتَهُمْ"
+                },
+                {
+                    "rule": "Idzhar Syafawi",
+                    "segment": "ءَأَنذَرْتَهُمْ أَمْ"
+                },
+                {
+                    "rule": "Ikhfa Haqiqi",
+                    "segment": "تُنذِرْهُمْ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "يُؤْمِنُونَ"
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "text_arabic": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَـٰرِهِمْ غِشَـٰوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            "text_latin": "Khatamallahu 'ala qulubihim wa 'ala sam'ihim, wa 'ala absarihim ghishawah, wa lahum 'azabun 'azim",
+            "translation_id": "Allah telah mengunci hati dan pendengaran mereka, penglihatan mereka telah tertutup, dan mereka akan mendapat azab yang berat.",
+            "tafsir": "Akibat penolakan mereka yang terus-menerus, Allah mengunci mati hati mereka sehingga hidayah tidak bisa masuk, dan menutup telinga mereka dari mendengarkan kebenaran. Di mata mereka ada selaput yang menghalangi dari melihat tanda-tanda kekuasaan Allah. Bagi mereka telah disiapkan azab yang sangat berat di neraka Jahannam.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Lam Jalalah Tafkhim",
+                    "segment": "خَتَمَ ٱللَّهُ"
+                },
+                {
+                    "rule": "Waqaf Saly (Boleh berhenti, lanjut lebih utama)",
+                    "segment": "سَمْعِهِمْ ۖ"
+                },
+                {
+                    "rule": "Mad Jaiz Munfasil",
+                    "segment": "وَعَلَىٰٓ أَبْصَـٰرِهِمْ"
+                },
+                {
+                    "rule": "Idgham Bighunnah",
+                    "segment": "غِشَـٰوَةٌ ۖ وَلَهُمْ"
+                },
+                {
+                    "rule": "Waqaf Saly (Boleh berhenti, lanjut lebih utama)",
+                    "segment": "غِشَـٰوَةٌ ۖ"
+                },
+                {
+                    "rule": "Idzhar Halqi",
+                    "segment": "عَذَابٌ عَظِيمٌ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "عَظِيمٌ"
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "text_arabic": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+            "text_latin": "Wa minan-nasi man yaqulu amanna billahi wa bil-yaumil-akhiri wa ma hum bi-mu'minin",
+            "translation_id": "Dan di antara manusia ada yang berkata, \"Kami beriman kepada Allah dan hari akhir,\" padahal sesungguhnya mereka itu bukan orang-orang yang beriman.",
+            "tafsir": "Allah menjelaskan golongan ketiga manusia, yaitu orang Munafik. Mereka mengucapkan dengan lisan \"Kami beriman\", namun hati mereka mengingkarinya. Pengakuan iman mereka hanyalah kebohongan belaka.",
+            "asbabun_nuzul": "Ayat ini hingga ayat ke-20 diturunkan berkenaan dengan Abdullah bin Ubay bin Salul dan para pengikutnya dari kalangan munafikin Madinah. Ketika Nabi saw. hijrah ke Madinah dan Islam menjadi kuat setelah Perang Badar, orang-orang ini merasa terancam kedudukannya. Mereka akhirnya berpura-pura masuk Islam di hadapan Nabi dan kaum muslimin untuk menyelamatkan darah dan harta mereka, namun secara sembunyi-sembunyi mereka tetap menyimpan kekafiran dan memusuhi Islam.",
+            "tajwid_info": [
+                {
+                    "rule": "Ghunnah",
+                    "segment": "ٱلنَّاسِ"
+                },
+                {
+                    "rule": "Idgham Bighunnah",
+                    "segment": "مَن يَقُولُ"
+                },
+                {
+                    "rule": "Mad Jaiz Munfasil",
+                    "segment": "ءَامَنَّا بِٱللَّهِ"
+                },
+                {
+                    "rule": "Ikhfa Syafawi",
+                    "segment": "هُم بِمُؤْمِنِينَ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "بِمُؤْمِنِينَ"
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "text_arabic": "يُخَـٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُوا۟ وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
+            "text_latin": "Yukhadi'unallaha wallazina amanu wa ma yakhda'una illa anfusahum wa ma yash'urun",
+            "translation_id": "Mereka menipu Allah dan orang-orang yang beriman, padahal mereka hanyalah menipu diri sendiri tanpa mereka sadari.",
+            "tafsir": "Mereka mengira tipuan mereka (menampakkan Islam dan menyembunyikan kekafiran) dapat mengelabui Allah dan orang mukmin. Padahal, dampak buruk dari tipuan itu justru akan kembali kepada diri mereka sendiri (kehinaan di dunia dan azab di akhirat), namun karena kebodohan, mereka tidak menyadarinya.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Lam Jalalah Tafkhim",
+                    "segment": "يُخَـٰدِعُونَ ٱللَّهَ"
+                },
+                {
+                    "rule": "Qalqalah Sughra",
+                    "segment": "يَخْدَعُونَ"
+                },
+                {
+                    "rule": "Mad Jaiz Munfasil",
+                    "segment": "إِلَّآ أَنفُسَهُمْ"
+                },
+                {
+                    "rule": "Ikhfa Haqiqi",
+                    "segment": "أَنفُسَهُمْ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "يَشْعُرُونَ"
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "text_arabic": "فِى قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ ٱللَّهُ مَرَضًا ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْذِبُونَ",
+            "text_latin": "Fi qulubihim maradun fa zadahumullahu marada, wa lahum 'azabun alimum bima kanu yakzibun",
+            "translation_id": "Dalam hati mereka ada penyakit, lalu Allah menambah penyakitnya itu; dan mereka mendapat azab yang pedih, karena mereka berdusta.",
+            "tafsir": "Di dalam hati mereka bersarang penyakit keraguan, kemunafikan, dan kedengkian. Karena mereka terus memelihara sifat buruk itu, Allah membiarkan penyakit itu bertambah parah hingga membinasakan mereka. Mereka diancam dengan azab yang pedih karena kebiasaan mereka berdusta.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Idgham Mimi",
+                    "segment": "قُلُوبِهِم مَّرَضٌ"
+                },
+                {
+                    "rule": "Ikhfa Haqiqi",
+                    "segment": "مَّرَضٌ فَزَادَهُمُ"
+                },
+                {
+                    "rule": "Lam Jalalah Tafkhim",
+                    "segment": "فَزَادَهُمُ ٱللَّهُ"
+                },
+                {
+                    "rule": "Idgham Bighunnah",
+                    "segment": "مَرَضًا ۖ وَلَهُمْ"
+                },
+                {
+                    "rule": "Waqaf Saly (Boleh berhenti, lanjut lebih utama)",
+                    "segment": "مَرَضًا ۖ"
+                },
+                {
+                    "rule": "Idzhar Halqi",
+                    "segment": "عَذَابٌ أَلِيمٌۢ"
+                },
+                {
+                    "rule": "Iqlab (Tanda Mim Kecil)",
+                    "segment": "أَلِيمٌۢ بِمَا"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "يَكْذِبُونَ"
+                }
+            ]
+        }
+    ]
+}

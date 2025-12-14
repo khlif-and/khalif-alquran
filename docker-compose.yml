@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: khalif_alquran_api # Nama container unik untuk service ini
+    restart: no
+    ports:
+      - "8086:8086" # Port disesuaikan dengan Dockerfile (8086)
+    env_file:
+      - .env
+    environment:
+      - PORT=8086
+      
+      # Konfigurasi Database
+      # Host 'khalif_db' merujuk ke container Postgres di network 'khalif_network'
+      # DB Name 'khalif_alquran' agar datanya terpisah dari khalif-stories
+      - DB_HOST=khalif_db
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - DB_NAME=khalif_alquran
+      - DB_PORT=5432
+      - SSL_MODE=disable
+
+      # Jika aplikasimu menggunakan format DSN string (DATABASE_URL), gunakan ini:
+      # - DATABASE_URL=postgres://postgres:postgres@khalif_db:5432/khalif_alquran?sslmode=disable
+
+      # Konfigurasi Redis
+      # Host 'khalif_redis' merujuk ke container Redis di network 'khalif_network'
+      - REDIS_ADDR=khalif_redis:6379
+    networks:
+      - khalif_net
+
+# Menggunakan network external yang sama dengan infrastruktur utama (Postgres & Redis shared)
+networks:
+  khalif_net:
+    external: true
+    name: khalif_network
