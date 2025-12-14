@@ -1,0 +1,179 @@
+{
+    "number": 1,
+    "name": "الفاتحة",
+    "latin_name": "Al-Fatiha",
+    "english_name": "The Opening",
+    "ayah_count": 7,
+    "ayahs": [
+        {
+            "number": 1,
+            "text_arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+            "text_latin": "Bismillahir-Rahmanir-Rahim",
+            "translation_id": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.",
+            "tafsir": "Aku memulai bacaan ini dengan menyebut nama Allah yang Maha Pengasih lagi Maha Penyayang. Allah adalah Tuhan yang berhak disembah, yang melimpahkan rahmat-Nya kepada seluruh makhluk-Nya.",
+            "asbabun_nuzul": "Surah Al-Fatihah disebut sebagai Fatihatul Kitab (Pembuka Kitab) dan Ummul Qur'an (Induk Al-Qur'an). Mengenai sebab turunnya (Asbabun Nuzul), terdapat beberapa riwayat masyhur yang melatarbelakanginya.\n\nRiwayat Pertama (Tentang Dua Cahaya Istimewa):\nDiriwayatkan oleh Imam Muslim dari Ibnu Abbas r.a., beliau bercerita: 'Ketika Rasulullah saw. sedang duduk bersama Malaikat Jibril a.s., tiba-tiba beliau mendengar suara gemuruh yang keras dari atas. Jibril kemudian menengadah ke langit dan berkata: 'Ini adalah pintu langit yang dibuka pada hari ini, yang sebelumnya tidak pernah dibuka sama sekali sejak penciptaan langit.' Lalu turunlah seorang malaikat dari pintu tersebut dan mendatangi Nabi saw. seraya berkata: 'Bergembiralah engkau (wahai Muhammad) dengan dua cahaya yang diberikan kepadamu, yang tidak pernah diberikan kepada seorang nabi pun sebelummu, yaitu Fatihatul Kitab (Surah Al-Fatihah) dan ayat-ayat penutup Surah Al-Baqarah. Tidaklah engkau membaca satu huruf pun darinya melainkan akan dikabulkan permintaanmu.'\n\nRiwayat Kedua (Awal Mula Wahyu):\nDiriwayatkan dari Ali bin Abi Thalib r.a., bahwa Surah Al-Fatihah turun di Makkah pada awal masa kenabian. Suatu ketika Rasulullah saw. bercerita kepada Khadijah r.a.: 'Setiap kali aku menyendiri (di Gua Hira atau berjalan sendiri), aku mendengar seruan 'Wahai Muhammad! Wahai Muhammad!'. Aku pun ketakutan dan berlari.' Waraqah bin Naufal kemudian menyarankan, 'Jika engkau mendengar seruan itu lagi, janganlah lari, tetapi tetaplah di tempatmu hingga engkau mendengar apa yang dikatakannya.' Ketika beliau mendengar seruan itu lagi, Malaikat Jibril menampakkan diri dan berkata: 'Katakanlah: Bismillahirrahmanirrahim, Alhamdulillahi Rabbil 'Alamin...' hingga akhir surat. Ini menandakan bahwa Al-Fatihah adalah salah satu wahyu pertama yang turun secara utuh (satu surat penuh) untuk mengajarkan tata cara memuji Allah dalam shalat.'",
+            "tajwid_info": [
+                {
+                    "rule": "Lam Jalalah Tarqiq",
+                    "segment": "ٱللَّهِ"
+                },
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلرَّحْمَـٰنِ"
+                },
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلرَّحِيمِ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "ٱلرَّحِيمِ"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "text_arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+            "text_latin": "Al-hamdu lillahi Rabbil-alamin",
+            "translation_id": "Segala puji bagi Allah, Tuhan seluruh alam,",
+            "tafsir": "Segala puji yang disertai pengagungan dan penghormatan hanyalah milik Allah semata, Pencipta dan Pengatur seluruh alam semesta, baik yang terlihat maupun yang tidak terlihat.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "ٱلْحَمْدُ"
+                },
+                {
+                    "rule": "Lam Jalalah Tarqiq",
+                    "segment": "لِلَّهِ"
+                },
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "ٱلْعَـٰلَمِينَ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "ٱلْعَـٰلَمِينَ"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "text_arabic": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+            "text_latin": "Ar-Rahmanir-Rahim",
+            "translation_id": "Yang Maha Pengasih, Maha Penyayang,",
+            "tafsir": "Dia Maha Pengasih kepada seluruh makhluk di dunia dengan memberi nikmat-nikmat, dan Maha Penyayang khusus bagi orang-orang mukmin di akhirat.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلرَّحْمَـٰنِ"
+                },
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلرَّحِيمِ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "ٱلرَّحِيمِ"
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "text_arabic": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+            "text_latin": "Maliki Yawmid-Din",
+            "translation_id": "Pemilik hari pembalasan.",
+            "tafsir": "Dialah satu-satunya Pemilik dan Penguasa Hari Kiamat, hari di mana setiap hamba akan diberi balasan sesuai dengan amal perbuatannya.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلدِّينِ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "ٱلدِّينِ"
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "text_arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "text_latin": "Iyyaka na'budu wa iyyaka nasta'in",
+            "translation_id": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.",
+            "tafsir": "Hanya kepada-Mu ya Allah kami tujukan segala bentuk ibadah, dan hanya kepada-Mu kami memohon pertolongan dalam segala urusan kami.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Mad Thabi'i",
+                    "segment": "إِيَّاكَ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "نَسْتَعِينُ"
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "text_arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+            "text_latin": "Ihdinas-siratal-mustaqim",
+            "translation_id": "Tunjukilah kami jalan yang lurus,",
+            "tafsir": "Bimbinglah kami, berilah kami taufik untuk menempuh jalan yang lurus, yaitu agama Islam, jalan yang mengantarkan kepada keridhaan-Mu dan surga-Mu.",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلصِّرَٰطَ"
+                },
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "ٱلْمُسْتَقِيمَ"
+                },
+                {
+                    "rule": "Mad Arid Lissukun",
+                    "segment": "ٱلْمُسْتَقِيمَ"
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "text_arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+            "text_latin": "Siratal-lazina an'amta 'alaihim ghayril-maghdubi 'alaihim walad-dallin",
+            "translation_id": "Yaitu jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.",
+            "tafsir": "Yaitu jalannya para Nabi, orang-orang jujur (siddiqin), syuhada, dan orang-orang saleh. Bukan jalan orang-orang yang Engkau murkai (seperti kaum Yahudi yang mengetahui kebenaran tapi enggan mengamalkannya), dan bukan pula jalan orang-orang yang sesat (seperti kaum Nasrani yang beribadah tanpa dasar ilmu).",
+            "asbabun_nuzul": "",
+            "tajwid_info": [
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلَّذِينَ"
+                },
+                {
+                    "rule": "Idzhar Syafawi",
+                    "segment": "أَنْعَمْتَ"
+                },
+                {
+                    "rule": "Idzhar Syafawi",
+                    "segment": "عَلَيْهِمْ غَيْرِ"
+                },
+                {
+                    "rule": "Al-Qamariyah",
+                    "segment": "ٱلْمَغْضُوبِ"
+                },
+                {
+                    "rule": "Idzhar Syafawi",
+                    "segment": "عَلَيْهِمْ وَلَا"
+                },
+                {
+                    "rule": "Al-Syamsiyah",
+                    "segment": "ٱلضَّآلِّينَ"
+                },
+                {
+                    "rule": "Mad Lazim Mutsaqqal Kilmi",
+                    "segment": "ٱلضَّآلِّينَ"
+                }
+            ]
+        }
+    ]
+}
