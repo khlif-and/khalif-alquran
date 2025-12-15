@@ -9,6 +9,7 @@ package main
 import (
 	"khalif-alquran/internal/config"
 	"khalif-alquran/internal/handler"
+	"khalif-alquran/internal/handler/grpc"
 	"khalif-alquran/internal/repository"
 	"khalif-alquran/internal/usecase"
 )
@@ -27,6 +28,7 @@ func InitializeApp() (*App, error) {
 	bookmarkRepository := repository.NewBookmarkRepository(db)
 	bookmarkUC := usecase.NewBookmarkUseCase(bookmarkRepository)
 	bookmarkHandler := handler.NewBookmarkHandler(bookmarkUC)
-	app := NewApp(db, client, quranHandler, bookmarkHandler)
+	grpcQuranHandler := grpc.NewQuranHandler(quranUC)
+	app := NewApp(db, client, quranHandler, bookmarkHandler, grpcQuranHandler)
 	return app, nil
 }
