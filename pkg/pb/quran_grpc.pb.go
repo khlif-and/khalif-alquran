@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.6.0
 // - protoc             v3.12.4
-// source: api/proto/quran.proto
+// source: quran.proto
 
 package pb
 
@@ -155,5 +155,5 @@ var QuranService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "api/proto/quran.proto",
+	Metadata: "quran.proto",
 }

@@ -42,6 +42,7 @@ type Surah struct {
 	Name           string    `json:"name"`
 	LatinName      string    `json:"latin_name"`
 	EnglishName    string    `json:"english_name"`
+	IndonesianName string    `json:"indonesian_name"` // FIELD BARU
 	RevelationType string    `json:"revelation_type"`
 	
 	// Tag json disesuaikan dengan key di file seed ("ayah_count")
@@ -117,8 +118,6 @@ type QuranUseCase interface {
 	GetSurahDetail(ctx context.Context, number int) (*Surah, error)
 	GetAyahDetail(ctx context.Context, surahNumber, ayahNumber int) (*Ayah, error)
 	Search(ctx context.Context, query string) (map[string]interface{}, error)
-	
-	// Fitur ClearCache tetap kita pertahankan
 	ClearCache(ctx context.Context) error
 }
 

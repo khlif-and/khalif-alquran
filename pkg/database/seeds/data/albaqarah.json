@@ -3,6 +3,8 @@
     "name": "البقرة",
     "latin_name": "Al-Baqarah",
     "english_name": "The Cow",
+    "indonesian_name": "Sapi Betina",
+    "revelation_type": "Madaniyah",
     "ayah_count": 286,
     "ayahs": [
         {
@@ -25,7 +27,7 @@
         },
         {
             "number": 2,
-            "text_arabic": "ذَٰلِكَ ٱلْكِتَـٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
+            "text_arabic": "ذَٰلِكَ ٱلْكِتَـٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
             "text_latin": "Dzalikal-kitabu la raiba fih, hudal-lil-muttaqin",
             "translation_id": "Kitab (Al-Qur'an) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,",
             "tafsir": "Inilah Al-Qur'an, kitab yang agung dan sempurna. Tidak ada keraguan sedikit pun bahwa ia berasal dari Allah. Isinya adalah kebenaran mutlak yang menjadi pedoman hidup bagi orang-orang yang bertakwa.",
@@ -49,17 +51,17 @@
                 },
                 {
                     "rule": "Idgham Bilaghunnah",
-                    "segment": "هُدًى لِّلْمُتَّقِينَ"
+                    "segment": "هُدًى لِّلْمُتَّقِينَ"
                 },
                 {
                     "rule": "Mad Arid Lissukun",
-                    "segment": "لِّلْمُتَّقِينَ"
+                    "segment": "لِّلْمُتَّقِينَ"
                 }
             ]
         },
         {
             "number": 3,
-            "text_arabic": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+            "text_arabic": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
             "text_latin": "Allazina yu'minuna bil-ghaibi wa yuqimunas-salata wa mimma razaqnahum yunfiqun",
             "translation_id": "(yaitu) mereka yang beriman kepada yang gaib, melaksanakan salat, dan menginfakkan sebagian rezeki yang Kami berikan kepada mereka,",
             "tafsir": "Orang bertakwa memiliki ciri utama: 1) Beriman kepada hal-hal gaib yang tidak tampak mata (seperti Allah, Malaikat, Surga, Neraka), 2) Menjaga salat dengan menyempurnakan rukun dan syaratnya, 3) Menyisihkan sebagian harta untuk zakat dan sedekah.",
@@ -67,7 +69,7 @@
             "tajwid_info": [
                 {
                     "rule": "Al-Syamsiyah",
-                    "segment": "ٱلَّذِينَ"
+                    "segment": "ٱلَّذِينَ"
                 },
                 {
                     "rule": "Al-Qamariyah",
@@ -75,7 +77,7 @@
                 },
                 {
                     "rule": "Al-Syamsiyah",
-                    "segment": "ٱلصَّلَوٰةَ"
+                    "segment": "ٱلصَّلَوٰةَ"
                 },
                 {
                     "rule": "Qalqalah Sughra",
@@ -93,7 +95,7 @@
         },
         {
             "number": 4,
-            "text_arabic": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+            "text_arabic": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
             "text_latin": "Wallazina yu'minuna bima unzila ilaika wa ma unzila min qablika wa bil-akhirati hum yuqinun",
             "translation_id": "dan mereka yang beriman kepada (Al-Qur'an) yang diturunkan kepadamu (Muhammad) dan (kitab-kitab) yang telah diturunkan sebelum engkau, dan mereka yakin akan adanya akhirat.",
             "tafsir": "Selain itu, mereka juga beriman kepada kitab suci Al-Qur'an yang diturunkan kepada Nabi Muhammad saw. serta kitab-kitab sebelumnya (Taurat, Injil, Zabur) tanpa membeda-bedakan. Mereka juga memiliki keyakinan yang kuat tentang adanya kehidupan akhirat.",
@@ -101,7 +103,7 @@
             "tajwid_info": [
                 {
                     "rule": "Mad Jaiz Munfasil",
-                    "segment": "بِمَآ أُنزِلَ"
+                    "segment": "بِمَآ أُنزِلَ"
                 },
                 {
                     "rule": "Ikhfa Haqiqi",
@@ -109,7 +111,7 @@
                 },
                 {
                     "rule": "Mad Jaiz Munfasil",
-                    "segment": "وَمَآ أُنزِلَ"
+                    "segment": "وَمَآ أُنزِلَ"
                 },
                 {
                     "rule": "Ikhfa Haqiqi",
@@ -121,7 +123,7 @@
                 },
                 {
                     "rule": "Al-Qamariyah",
-                    "segment": "وَبِٱلْـَٔاخِرَةِ"
+                    "segment": "وَبِٱلْـَٔاخِرَةِ"
                 },
                 {
                     "rule": "Mad Arid Lissukun",
@@ -131,7 +133,7 @@
         },
         {
             "number": 5,
-            "text_arabic": "أُو۟لَـٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+            "text_arabic": "أُو۟لَـٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
             "text_latin": "Ula'ika 'ala hudan mir-rabbihim wa ula'ika humul-muflihun",
             "translation_id": "Merekalah yang mendapat petunjuk dari Tuhannya, dan mereka itulah orang-orang yang beruntung.",
             "tafsir": "Mereka yang memiliki sifat-sifat di atas itulah yang berada di atas cahaya petunjuk dari Tuhan mereka. Mereka adalah orang-orang yang beruntung karena berhasil meraih surga dan selamat dari neraka.",
@@ -143,15 +145,15 @@
                 },
                 {
                     "rule": "Idgham Bighunnah",
-                    "segment": "هُدًى مِّن"
+                    "segment": "هُدًى مِّن"
                 },
                 {
                     "rule": "Idgham Bilaghunnah",
-                    "segment": "مِّن رَّبِّهِمْ"
+                    "segment": "مِّن رَّبِّهِمْ"
                 },
                 {
                     "rule": "Waqaf Saly (Boleh berhenti, lanjut lebih utama)",
-                    "segment": "رَّبِّهِمْ ۖ"
+                    "segment": "رَّبِّهِمْ ۖ"
                 },
                 {
                     "rule": "Mad Wajib Muttasil",
@@ -169,7 +171,7 @@
         },
         {
             "number": 6,
-            "text_arabic": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+            "text_arabic": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
             "text_latin": "Innal-lazina kafaru sawa'un 'alaihim a-anzartahum am lam tunzirhum la yu'minun",
             "translation_id": "Sesungguhnya orang-orang kafir, sama saja bagi mereka, engkau beri peringatan atau tidak engkau beri peringatan, mereka tidak akan beriman.",
             "tafsir": "Adapun orang-orang yang ingkar (kafir) dan bersikeras menutupi kebenaran, peringatanmu tidak akan berguna bagi mereka. Hati mereka telah keras membatu sehingga sama saja bagi mereka, apakah engkau menasihati mereka atau membiarkan mereka, mereka tetap tidak akan beriman.",
@@ -177,15 +179,15 @@
             "tajwid_info": [
                 {
                     "rule": "Ghunnah",
-                    "segment": "إِنَّ"
+                    "segment": "إِنَّ"
                 },
                 {
                     "rule": "Mad Wajib Muttasil",
-                    "segment": "سَوَآءٌ"
+                    "segment": "سَوَآءٌ"
                 },
                 {
                     "rule": "Idzhar Halqi",
-                    "segment": "سَوَآءٌ عَلَيْهِمْ"
+                    "segment": "سَوَآءٌ عَلَيْهِمْ"
                 },
                 {
                     "rule": "Ikhfa Haqiqi",
@@ -207,7 +209,7 @@
         },
         {
             "number": 7,
-            "text_arabic": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَـٰرِهِمْ غِشَـٰوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            "text_arabic": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَـٰرِهِمْ غِشَـٰوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
             "text_latin": "Khatamallahu 'ala qulubihim wa 'ala sam'ihim, wa 'ala absarihim ghishawah, wa lahum 'azabun 'azim",
             "translation_id": "Allah telah mengunci hati dan pendengaran mereka, penglihatan mereka telah tertutup, dan mereka akan mendapat azab yang berat.",
             "tafsir": "Akibat penolakan mereka yang terus-menerus, Allah mengunci mati hati mereka sehingga hidayah tidak bisa masuk, dan menutup telinga mereka dari mendengarkan kebenaran. Di mata mereka ada selaput yang menghalangi dari melihat tanda-tanda kekuasaan Allah. Bagi mereka telah disiapkan azab yang sangat berat di neraka Jahannam.",
@@ -215,7 +217,7 @@
             "tajwid_info": [
                 {
                     "rule": "Lam Jalalah Tafkhim",
-                    "segment": "خَتَمَ ٱللَّهُ"
+                    "segment": "خَتَمَ ٱللَّهُ"
                 },
                 {
                     "rule": "Waqaf Saly (Boleh berhenti, lanjut lebih utama)",
@@ -245,7 +247,7 @@
         },
         {
             "number": 8,
-            "text_arabic": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+            "text_arabic": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
             "text_latin": "Wa minan-nasi man yaqulu amanna billahi wa bil-yaumil-akhiri wa ma hum bi-mu'minin",
             "translation_id": "Dan di antara manusia ada yang berkata, \"Kami beriman kepada Allah dan hari akhir,\" padahal sesungguhnya mereka itu bukan orang-orang yang beriman.",
             "tafsir": "Allah menjelaskan golongan ketiga manusia, yaitu orang Munafik. Mereka mengucapkan dengan lisan \"Kami beriman\", namun hati mereka mengingkarinya. Pengakuan iman mereka hanyalah kebohongan belaka.",
@@ -253,7 +255,7 @@
             "tajwid_info": [
                 {
                     "rule": "Ghunnah",
-                    "segment": "ٱلنَّاسِ"
+                    "segment": "ٱلنَّاسِ"
                 },
                 {
                     "rule": "Idgham Bighunnah",
@@ -261,7 +263,7 @@
                 },
                 {
                     "rule": "Mad Jaiz Munfasil",
-                    "segment": "ءَامَنَّا بِٱللَّهِ"
+                    "segment": "ءَامَنَّا بِٱللَّهِ"
                 },
                 {
                     "rule": "Ikhfa Syafawi",
@@ -275,7 +277,7 @@
         },
         {
             "number": 9,
-            "text_arabic": "يُخَـٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُوا۟ وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
+            "text_arabic": "يُخَـٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُوا۟ وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
             "text_latin": "Yukhadi'unallaha wallazina amanu wa ma yakhda'una illa anfusahum wa ma yash'urun",
             "translation_id": "Mereka menipu Allah dan orang-orang yang beriman, padahal mereka hanyalah menipu diri sendiri tanpa mereka sadari.",
             "tafsir": "Mereka mengira tipuan mereka (menampakkan Islam dan menyembunyikan kekafiran) dapat mengelabui Allah dan orang mukmin. Padahal, dampak buruk dari tipuan itu justru akan kembali kepada diri mereka sendiri (kehinaan di dunia dan azab di akhirat), namun karena kebodohan, mereka tidak menyadarinya.",
@@ -283,7 +285,7 @@
             "tajwid_info": [
                 {
                     "rule": "Lam Jalalah Tafkhim",
-                    "segment": "يُخَـٰدِعُونَ ٱللَّهَ"
+                    "segment": "يُخَـٰدِعُونَ ٱللَّهَ"
                 },
                 {
                     "rule": "Qalqalah Sughra",
@@ -291,7 +293,7 @@
                 },
                 {
                     "rule": "Mad Jaiz Munfasil",
-                    "segment": "إِلَّآ أَنفُسَهُمْ"
+                    "segment": "إِلَّآ أَنفُسَهُمْ"
                 },
                 {
                     "rule": "Ikhfa Haqiqi",
@@ -305,7 +307,7 @@
         },
         {
             "number": 10,
-            "text_arabic": "فِى قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ ٱللَّهُ مَرَضًا ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْذِبُونَ",
+            "text_arabic": "فِى قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ ٱللَّهُ مَرَضًا ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْذِبُونَ",
             "text_latin": "Fi qulubihim maradun fa zadahumullahu marada, wa lahum 'azabun alimum bima kanu yakzibun",
             "translation_id": "Dalam hati mereka ada penyakit, lalu Allah menambah penyakitnya itu; dan mereka mendapat azab yang pedih, karena mereka berdusta.",
             "tafsir": "Di dalam hati mereka bersarang penyakit keraguan, kemunafikan, dan kedengkian. Karena mereka terus memelihara sifat buruk itu, Allah membiarkan penyakit itu bertambah parah hingga membinasakan mereka. Mereka diancam dengan azab yang pedih karena kebiasaan mereka berdusta.",
@@ -313,15 +315,15 @@
             "tajwid_info": [
                 {
                     "rule": "Idgham Mimi",
-                    "segment": "قُلُوبِهِم مَّرَضٌ"
+                    "segment": "قُلُوبِهِم مَّرَضٌ"
                 },
                 {
                     "rule": "Ikhfa Haqiqi",
-                    "segment": "مَّرَضٌ فَزَادَهُمُ"
+                    "segment": "مَّرَضٌ فَزَادَهُمُ"
                 },
                 {
                     "rule": "Lam Jalalah Tafkhim",
-                    "segment": "فَزَادَهُمُ ٱللَّهُ"
+                    "segment": "فَزَادَهُمُ ٱللَّهُ"
                 },
                 {
                     "rule": "Idgham Bighunnah",
