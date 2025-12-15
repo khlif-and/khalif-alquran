@@ -16,6 +16,7 @@ message Surah {
   string name = 2;
   string latin_name = 3;
   string english_name = 4;
+  string indonesian_name = 7; // FIELD BARU
   string revelation_type = 5;
   int32 total_ayahs = 6;
 }

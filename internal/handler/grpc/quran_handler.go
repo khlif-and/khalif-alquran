@@ -32,6 +32,7 @@ func (h *QuranHandler) GetAllSurahs(ctx context.Context, req *pb.Empty) (*pb.Sur
 			Name:           s.Name,
 			LatinName:      s.LatinName,
 			EnglishName:    s.EnglishName,
+			IndonesianName: s.IndonesianName, // Field Baru
 			RevelationType: s.RevelationType,
 			TotalAyahs:     int32(s.TotalAyahs),
 		})
@@ -51,6 +52,7 @@ func (h *QuranHandler) GetSurahDetail(ctx context.Context, req *pb.SurahDetailRe
 		Name:           surah.Name,
 		LatinName:      surah.LatinName,
 		EnglishName:    surah.EnglishName,
+		IndonesianName: surah.IndonesianName, // Field Baru
 		RevelationType: surah.RevelationType,
 		TotalAyahs:     int32(surah.TotalAyahs),
 	}

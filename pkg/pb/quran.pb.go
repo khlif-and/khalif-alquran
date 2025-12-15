@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.36.11
 // 	protoc        v3.12.4
-// source: api/proto/quran.proto
+// source: quran.proto
 
 package pb
 
@@ -29,7 +29,7 @@ type Empty struct {
 
 func (x *Empty) Reset() {
 	*x = Empty{}
-	mi := &file_api_proto_quran_proto_msgTypes[0]
+	mi := &file_quran_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -41,7 +41,7 @@ func (x *Empty) String() string {
 func (*Empty) ProtoMessage() {}
 
 func (x *Empty) ProtoReflect() protoreflect.Message {
-	mi := &file_api_proto_quran_proto_msgTypes[0]
+	mi := &file_quran_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -54,7 +54,7 @@ func (x *Empty) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Empty.ProtoReflect.Descriptor instead.
 func (*Empty) Descriptor() ([]byte, []int) {
-	return file_api_proto_quran_proto_rawDescGZIP(), []int{0}
+	return file_quran_proto_rawDescGZIP(), []int{0}
 }
 
 type Surah struct {
@@ -63,6 +63,7 @@ type Surah struct {
 	Name           string                 `protobuf:"bytes,2,opt,name=name,proto3" json:"name,omitempty"`
 	LatinName      string                 `protobuf:"bytes,3,opt,name=latin_name,json=latinName,proto3" json:"latin_name,omitempty"`
 	EnglishName    string                 `protobuf:"bytes,4,opt,name=english_name,json=englishName,proto3" json:"english_name,omitempty"`
+	IndonesianName string                 `protobuf:"bytes,7,opt,name=indonesian_name,json=indonesianName,proto3" json:"indonesian_name,omitempty"` // FIELD BARU
 	RevelationType string                 `protobuf:"bytes,5,opt,name=revelation_type,json=revelationType,proto3" json:"revelation_type,omitempty"`
 	TotalAyahs     int32                  `protobuf:"varint,6,opt,name=total_ayahs,json=totalAyahs,proto3" json:"total_ayahs,omitempty"`
 	unknownFields  protoimpl.UnknownFields
@@ -71,7 +72,7 @@ type Surah struct {
 
 func (x *Surah) Reset() {
 	*x = Surah{}
-	mi := &file_api_proto_quran_proto_msgTypes[1]
+	mi := &file_quran_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -83,7 +84,7 @@ func (x *Surah) String() string {
 func (*Surah) ProtoMessage() {}
 
 func (x *Surah) ProtoReflect() protoreflect.Message {
-	mi := &file_api_proto_quran_proto_msgTypes[1]
+	mi := &file_quran_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -96,7 +97,7 @@ func (x *Surah) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Surah.ProtoReflect.Descriptor instead.
 func (*Surah) Descriptor() ([]byte, []int) {
-	return file_api_proto_quran_proto_rawDescGZIP(), []int{1}
+	return file_quran_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *Surah) GetNumber() int32 {
@@ -127,6 +128,13 @@ func (x *Surah) GetEnglishName() string {
 	return ""
 }
 
+func (x *Surah) GetIndonesianName() string {
+	if x != nil {
+		return x.IndonesianName
+	}
+	return ""
+}
+
 func (x *Surah) GetRevelationType() string {
 	if x != nil {
 		return x.RevelationType
@@ -153,7 +161,7 @@ type Ayah struct {
 
 func (x *Ayah) Reset() {
 	*x = Ayah{}
-	mi := &file_api_proto_quran_proto_msgTypes[2]
+	mi := &file_quran_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -165,7 +173,7 @@ func (x *Ayah) String() string {
 func (*Ayah) ProtoMessage() {}
 
 func (x *Ayah) ProtoReflect() protoreflect.Message {
-	mi := &file_api_proto_quran_proto_msgTypes[2]
+	mi := &file_quran_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -178,7 +186,7 @@ func (x *Ayah) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Ayah.ProtoReflect.Descriptor instead.
 func (*Ayah) Descriptor() ([]byte, []int) {
-	return file_api_proto_quran_proto_rawDescGZIP(), []int{2}
+	return file_quran_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *Ayah) GetNumber() int32 {
@@ -218,7 +226,7 @@ type SurahListResponse struct {
 
 func (x *SurahListResponse) Reset() {
 	*x = SurahListResponse{}
-	mi := &file_api_proto_quran_proto_msgTypes[3]
+	mi := &file_quran_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -230,7 +238,7 @@ func (x *SurahListResponse) String() string {
 func (*SurahListResponse) ProtoMessage() {}
 
 func (x *SurahListResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_api_proto_quran_proto_msgTypes[3]
+	mi := &file_quran_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -243,7 +251,7 @@ func (x *SurahListResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SurahListResponse.ProtoReflect.Descriptor instead.
 func (*SurahListResponse) Descriptor() ([]byte, []int) {
-	return file_api_proto_quran_proto_rawDescGZIP(), []int{3}
+	return file_quran_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *SurahListResponse) GetSurahs() []*Surah {
@@ -262,7 +270,7 @@ type SurahDetailRequest struct {
 
 func (x *SurahDetailRequest) Reset() {
 	*x = SurahDetailRequest{}
-	mi := &file_api_proto_quran_proto_msgTypes[4]
+	mi := &file_quran_proto_msgTypes[4]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -274,7 +282,7 @@ func (x *SurahDetailRequest) String() string {
 func (*SurahDetailRequest) ProtoMessage() {}
 
 func (x *SurahDetailRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_api_proto_quran_proto_msgTypes[4]
+	mi := &file_quran_proto_msgTypes[4]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -287,7 +295,7 @@ func (x *SurahDetailRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SurahDetailRequest.ProtoReflect.Descriptor instead.
 func (*SurahDetailRequest) Descriptor() ([]byte, []int) {
-	return file_api_proto_quran_proto_rawDescGZIP(), []int{4}
+	return file_quran_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *SurahDetailRequest) GetNumber() int32 {
@@ -307,7 +315,7 @@ type SurahDetailResponse struct {
 
 func (x *SurahDetailResponse) Reset() {
 	*x = SurahDetailResponse{}
-	mi := &file_api_proto_quran_proto_msgTypes[5]
+	mi := &file_quran_proto_msgTypes[5]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -319,7 +327,7 @@ func (x *SurahDetailResponse) String() string {
 func (*SurahDetailResponse) ProtoMessage() {}
 
 func (x *SurahDetailResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_api_proto_quran_proto_msgTypes[5]
+	mi := &file_quran_proto_msgTypes[5]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -332,7 +340,7 @@ func (x *SurahDetailResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SurahDetailResponse.ProtoReflect.Descriptor instead.
 func (*SurahDetailResponse) Descriptor() ([]byte, []int) {
-	return file_api_proto_quran_proto_rawDescGZIP(), []int{5}
+	return file_quran_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *SurahDetailResponse) GetSurah() *Surah {
@@ -349,18 +357,19 @@ func (x *SurahDetailResponse) GetAyahs() []*Ayah {
 	return nil
 }
 
-var File_api_proto_quran_proto protoreflect.FileDescriptor
+var File_quran_proto protoreflect.FileDescriptor
 
-const file_api_proto_quran_proto_rawDesc = "" +
+const file_quran_proto_rawDesc = "" +
 	"\n" +
-	"\x15api/proto/quran.proto\x12\x05quran\"\a\n" +
-	"\x05Empty\"\xbf\x01\n" +
+	"\vquran.proto\x12\x05quran\"\a\n" +
+	"\x05Empty\"\xe8\x01\n" +
 	"\x05Surah\x12\x16\n" +
 	"\x06number\x18\x01 \x01(\x05R\x06number\x12\x12\n" +
 	"\x04name\x18\x02 \x01(\tR\x04name\x12\x1d\n" +
 	"\n" +
 	"latin_name\x18\x03 \x01(\tR\tlatinName\x12!\n" +
 	"\fenglish_name\x18\x04 \x01(\tR\venglishName\x12'\n" +
+	"\x0findonesian_name\x18\a \x01(\tR\x0eindonesianName\x12'\n" +
 	"\x0frevelation_type\x18\x05 \x01(\tR\x0erevelationType\x12\x1f\n" +
 	"\vtotal_ayahs\x18\x06 \x01(\x05R\n" +
 	"totalAyahs\"\x80\x01\n" +
@@ -383,19 +392,19 @@ const file_api_proto_quran_proto_rawDesc = "" +
 	"\x0eGetSurahDetail\x12\x19.quran.SurahDetailRequest\x1a\x1a.quran.SurahDetailResponseB\x17Z\x15khalif-alquran/pkg/pbb\x06proto3"
 
 var (
-	file_api_proto_quran_proto_rawDescOnce sync.Once
-	file_api_proto_quran_proto_rawDescData []byte
+	file_quran_proto_rawDescOnce sync.Once
+	file_quran_proto_rawDescData []byte
 )
 
-func file_api_proto_quran_proto_rawDescGZIP() []byte {
-	file_api_proto_quran_proto_rawDescOnce.Do(func() {
-		file_api_proto_quran_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_api_proto_quran_proto_rawDesc), len(file_api_proto_quran_proto_rawDesc)))
+func file_quran_proto_rawDescGZIP() []byte {
+	file_quran_proto_rawDescOnce.Do(func() {
+		file_quran_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_quran_proto_rawDesc), len(file_quran_proto_rawDesc)))
 	})
-	return file_api_proto_quran_proto_rawDescData
+	return file_quran_proto_rawDescData
 }
 
-var file_api_proto_quran_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
-var file_api_proto_quran_proto_goTypes = []any{
+var file_quran_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
+var file_quran_proto_goTypes = []any{
 	(*Empty)(nil),               // 0: quran.Empty
 	(*Surah)(nil),               // 1: quran.Surah
 	(*Ayah)(nil),                // 2: quran.Ayah
@@ -403,7 +412,7 @@ var file_api_proto_quran_proto_goTypes = []any{
 	(*SurahDetailRequest)(nil),  // 4: quran.SurahDetailRequest
 	(*SurahDetailResponse)(nil), // 5: quran.SurahDetailResponse
 }
-var file_api_proto_quran_proto_depIdxs = []int32{
+var file_quran_proto_depIdxs = []int32{
 	1, // 0: quran.SurahListResponse.surahs:type_name -> quran.Surah
 	1, // 1: quran.SurahDetailResponse.surah:type_name -> quran.Surah
 	2, // 2: quran.SurahDetailResponse.ayahs:type_name -> quran.Ayah
@@ -418,26 +427,26 @@ var file_api_proto_quran_proto_depIdxs = []int32{
 	0, // [0:3] is the sub-list for field type_name
 }
 
-func init() { file_api_proto_quran_proto_init() }
-func file_api_proto_quran_proto_init() {
-	if File_api_proto_quran_proto != nil {
+func init() { file_quran_proto_init() }
+func file_quran_proto_init() {
+	if File_quran_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_api_proto_quran_proto_rawDesc), len(file_api_proto_quran_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_quran_proto_rawDesc), len(file_quran_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   6,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_api_proto_quran_proto_goTypes,
-		DependencyIndexes: file_api_proto_quran_proto_depIdxs,
-		MessageInfos:      file_api_proto_quran_proto_msgTypes,
+		GoTypes:           file_quran_proto_goTypes,
+		DependencyIndexes: file_quran_proto_depIdxs,
+		MessageInfos:      file_quran_proto_msgTypes,
 	}.Build()
-	File_api_proto_quran_proto = out.File
-	file_api_proto_quran_proto_goTypes = nil
-	file_api_proto_quran_proto_depIdxs = nil
+	File_quran_proto = out.File
+	file_quran_proto_goTypes = nil
+	file_quran_proto_depIdxs = nil
 }

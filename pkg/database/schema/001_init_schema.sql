@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS surahs (
     name VARCHAR(100) NOT NULL,
     latin_name VARCHAR(100) NOT NULL,
     english_name VARCHAR(100) NOT NULL,
+    indonesian_name VARCHAR(100) NOT NULL, -- KOLOM BARU
     revelation_type VARCHAR(20) NOT NULL, -- Meccan / Medinan
     total_ayahs INT NOT NULL
 );
