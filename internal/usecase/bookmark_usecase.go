@@ -8,20 +8,19 @@ import (
 
 )
 
-type bookmarkUseCase struct {
+type BookmarkUC struct {
 	bookmarkRepo domain.BookmarkRepository
 	timeout      time.Duration
 }
 
-// PERBAIKAN: Hapus parameter timeout dari sini agar cocok dengan wire_gen.go
-func NewBookmarkUseCase(repo domain.BookmarkRepository) domain.BookmarkUseCase {
-	return &bookmarkUseCase{
+func NewBookmarkUseCase(repo domain.BookmarkRepository) *BookmarkUC {
+	return &BookmarkUC{
 		bookmarkRepo: repo,
-		timeout:      time.Second * 2, // Set default timeout 2 detik (Hardcoded)
+		timeout:      time.Second * 2,
 	}
 }
 
-func (u *bookmarkUseCase) AddBookmark(ctx context.Context, userID string, surahID uint, ayahNumber int, note string) error {
+func (u *BookmarkUC) AddBookmark(ctx context.Context, userID string, surahID uint, ayahNumber int, note string) error {
 	ctx, cancel := context.WithTimeout(ctx, u.timeout)
 	defer cancel()
 
@@ -35,21 +34,21 @@ func (u *bookmarkUseCase) AddBookmark(ctx context.Context, userID string, surahI
 	return u.bookmarkRepo.SaveBookmark(ctx, bookmark)
 }
 
-func (u *bookmarkUseCase) GetUserBookmarks(ctx context.Context, userID string) ([]domain.Bookmark, error) {
+func (u *BookmarkUC) GetUserBookmarks(ctx context.Context, userID string) ([]domain.Bookmark, error) {
 	ctx, cancel := context.WithTimeout(ctx, u.timeout)
 	defer cancel()
 
 	return u.bookmarkRepo.GetByUserID(ctx, userID)
 }
 
-func (u *bookmarkUseCase) RemoveBookmark(ctx context.Context, userID string, surahID uint, ayahNumber int) error {
+func (u *BookmarkUC) RemoveBookmark(ctx context.Context, userID string, surahID uint, ayahNumber int) error {
 	ctx, cancel := context.WithTimeout(ctx, u.timeout)
 	defer cancel()
 
 	return u.bookmarkRepo.DeleteBookmark(ctx, userID, surahID, ayahNumber)
 }
 
-func (u *bookmarkUseCase) ClearBookmarks(ctx context.Context, userID string) error {
+func (u *BookmarkUC) ClearBookmarks(ctx context.Context, userID string) error {
 	ctx, cancel := context.WithTimeout(ctx, u.timeout)
 	defer cancel()
 

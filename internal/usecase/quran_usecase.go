@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"time"
+
 	"khalif-alquran/internal/domain"
 
 )
@@ -15,7 +16,7 @@ type QuranUC struct {
 	redisRepo domain.RedisRepository
 }
 
-// NewQuranUseCase sekarang mengembalikan *QuranUC (Struct Pointer)
+// NewQuranUseCase mengembalikan *QuranUC (Struct Pointer)
 func NewQuranUseCase(surahRepo domain.SurahRepository, ayahRepo domain.AyahRepository, redisRepo domain.RedisRepository) *QuranUC {
 	return &QuranUC{
 		surahRepo: surahRepo,
@@ -99,4 +100,23 @@ func (uc *QuranUC) Search(ctx context.Context, query string) (map[string]interfa
 	}
 
 	return result, nil
+}
+
+// Implementasi ClearCache (Fitur Hapus Cache Otomatis)
+func (uc *QuranUC) ClearCache(ctx context.Context) error {
+	if uc.redisRepo == nil {
+		return nil
+	}
+
+	// 1. Hapus Cache List Semua Surah
+	if err := uc.redisRepo.Del(ctx, domain.CacheKeySurahAll); err != nil {
+		return err
+	}
+
+	// 2. Hapus Semua Cache Detail Surah
+	if err := uc.redisRepo.DeletePrefix(ctx, domain.CacheKeySurahPrefix); err != nil {
+		return err
+	}
+
+	return nil
 }
